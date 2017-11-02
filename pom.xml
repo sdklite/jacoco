@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.sdklite</groupId>
+    <artifactId>oss</artifactId>
+    <version>0.0.6</version>
+  </parent>
+
+  <groupId>com.sdklite</groupId>
+  <artifactId>jacoco</artifactId>
+  <version>0.1.0</version>
+  <packaging>pom</packaging>
+
+  <name>JaCoCo for Android</name>
+
+  <scm>
+    <connection>scm:git:https://github.com/sdklite/jacoco.git</connection>
+    <developerConnection>scm:git@github.com:sdklite/jacoco.git</developerConnection>
+    <url>https://github.com/sdklite/jacoco</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/sdklite/jacoco/issues</url>
+  </issueManagement>
+
+  <modules>
+    <module>gradle</module>
+  </modules>
+
+</project>
